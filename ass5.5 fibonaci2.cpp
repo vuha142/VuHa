@@ -16,11 +16,11 @@ int main(){
 		int fn;
 		int f1=0;
 		int f2=1;
-		for(i=2;fn<n;i++){
+		for(i=2;f1+f2<n;i++){
 			fn = f1 + f2;
 			f1 = f2;
 			f2 = fn;
 		}
-	printf("kq la %d",f1);
+	printf("kq la %d",f2);
 	}
 }
